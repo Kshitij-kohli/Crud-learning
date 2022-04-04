@@ -32,7 +32,7 @@
             color: #47444e;
         }
 
-        .button,a {
+        .button1,a {
             margin: 2px;
             color: white;
             border: none;
@@ -54,6 +54,19 @@
             background-color: #e66a5e;
         }
 
+        .new-button{
+            background-color: #3b82c4;
+            text-align:left;
+            align-items: flex-end;
+            -ms-grid-column-align:end;
+        }
+        .save-button {
+            background-color: #52dd8c;
+        }
+        .cancel-button {
+            background-color: #c93c19;
+        }
+
         input,
         textarea {
             width: 100%;
@@ -71,16 +84,8 @@
 
     <div class="table-container">
         <h2 class="heading">Read Products</h2>
-        <a class="button edit-button" href="add.html">Create New Product</a>
-        <table id="product-list">
-            <tr class="header">
-                <th>ID</th>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Price</th>
-                <th>Action</th>
-            </tr>
-        </table>
+        <a class="button1 edit-button" href="add.html">Create New Product</a>
+        <table id="product-list"> </table>
     </div>
 </body>
 <script src="index.js"></script>
